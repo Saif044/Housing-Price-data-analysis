@@ -1,63 +1,25 @@
-# AirBnB Pricing Dashboard  
+# AirBnB Pricing and Revenue Dashboard
 
-![AirBnB Pricing Dashboard](path_to_image/AirBnB_Pricing_Dashboard.jpg)
+## **Project Overview**
+This project visualizes insights into AirBnB pricing and revenue patterns. It focuses on:
+- Average pricing trends based on the number of bedrooms.
+- The geographical variation in AirBnB prices by zip code.
+- The total revenue generated over time for the selected year.
+- The distribution of listings according to the number of bedrooms.
 
-## Project Overview  
-This project presents a comprehensive analysis of AirBnB rental pricing trends using Tableau. The goal is to provide insights into pricing variations and revenue patterns based on bedrooms, zip codes, and yearly trends.
+##
+1. **Data Preprocessing:**
+   - The raw AirBnB data was cleaned and preprocessed using SQL to ensure consistency, remove duplicates, and handle missing values.
+   - Aggregations like average price per bedroom, total revenue, and listings count were calculated.
 
----
+2. **Visualization:**
+   - **Average Price Per Bedroom:** A bar chart showing price trends for properties with 2 to 6 bedrooms.
+   - **Count of Listings:** A summary table representing the number of listings segmented by bedroom count.
+   - **Price by Zip Code:** Both a map and bar chart showcasing the variation in pricing geographically.
+   - **Revenue for Year:** A time-series line chart illustrating cumulative revenue growth by week.
 
-## Objectives  
-- **Analyze** average rental prices by the number of bedrooms.  
-- **Compare** price trends across different zip codes.  
-- **Identify** high-revenue opportunities for AirBnB hosts.  
-- **Track** annual revenue performance over time.  
+3. **Tools Used:**
+   - **Data Processing:** SQL
+   - **Visualization:** Tableau for creating interactive and user-friendly dashboards.
 
----
-
-## Why This Analysis Matters  
-This analysis helps property owners, AirBnB hosts, and business stakeholders:  
-1. **Optimize rental pricing** by understanding key influencing factors.  
-2. **Maximize profitability** through geographic and room configuration insights.  
-3. **Monitor performance trends** to plan future business strategies.  
-
----
-
-## Methodology  
-
-### 1. Data Preprocessing  
-- **Source:** AirBnB dataset.  
-- **Tools:** SQL was used for data cleaning, transformation, and standardization.  
-- Tasks performed:  
-  - Removed outliers and inconsistencies.  
-  - Cleaned location data for precise mapping.  
-  - Filtered relevant metrics for analysis.  
-
-### 2. Dashboard Development in Tableau  
-Key components of the dashboard:  
-- **Average Price Per Bedroom**:  
-  A bar chart visualizing price trends for properties with 2–6 bedrooms.  
-- **Price by Zip Code**:  
-  - A **map** displaying average prices geographically.  
-  - A **bar chart** ranking zip codes by average price.  
-- **Count of Listings by Bedroom**:  
-  A table summarizing the number of listings based on the bedroom count.  
-- **Revenue Over the Year**:  
-  A line chart illustrating the revenue trend throughout 2016.  
-
----
-
-## Visual Insights  
-Here are the primary insights derived from the dashboard:  
-1. Properties with **more bedrooms** generally command higher prices.  
-2. Certain zip codes, such as **98101**, stand out as premium areas.  
-3. Revenue shows a steady increase throughout the year, indicating seasonal demand.
-
----
-
-## Tools Used  
-- **SQL**: For data preprocessing and cleaning.  
-- **Tableau**: For creating interactive visualizations and dashboards.
-
-
- 
+This dashboard serves as a comprehensive tool to analyze and optimize AirBnB pricing and revenue strategies.
