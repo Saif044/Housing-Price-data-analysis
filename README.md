@@ -23,3 +23,7 @@ This project visualizes insights into AirBnB pricing and revenue patterns. It fo
    - **Visualization:** Tableau for creating interactive and user-friendly dashboards.
 
 This dashboard serves as a comprehensive tool to analyze and optimize AirBnB pricing and revenue strategies.
+
+## Overview of the Dashboard
+<img src="AirBnB Pricing Dashboard.jpg" alt="Ride Patterns Dashboard" width="600">
+
