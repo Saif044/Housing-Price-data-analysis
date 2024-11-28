@@ -59,16 +59,5 @@ Here are the primary insights derived from the dashboard:
 - **SQL**: For data preprocessing and cleaning.  
 - **Tableau**: For creating interactive visualizations and dashboards.
 
----
-
-## How to View the Dashboard  
-You can access and interact with the dashboard through Tableau Public (provide a link if applicable).  
-
----
-
-## Screenshot  
-![AirBnB Pricing Dashboard](AirBnB Pricing Dashboard.jpg)
-
----
 
  
